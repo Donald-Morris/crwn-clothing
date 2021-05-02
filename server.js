@@ -18,8 +18,8 @@ if (process.env.NODE_ENV === 'production') {
   });
 }
 
-app.listen(port, error => {
-  if (error) throw error;
+app.listen(port, err => {
+  if (err) throw err;
   console.log('Server running on port' + port);
 });
 
